@@ -1,0 +1,24 @@
+
+
+
+#features {
+    padding: 2rem;
+    border-radius: 6px;
+    background-color: #00a6a6;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+  
+  
+  #features ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  #features li {
+    width: 10em;
+  }

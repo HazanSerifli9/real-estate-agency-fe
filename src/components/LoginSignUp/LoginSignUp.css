@@ -1,0 +1,28 @@
+.login-form .input {
+    background-color: #00a6a6; /* Soft red background color */
+     /* Rounded corners */
+     /* Remove default border */
+    padding: 10px; /* Add some padding */
+    align-items: center;
+    justify-content: center
+}
+
+.input input {
+    background-color: #00a6a6; /* Soft red background color */
+    width: 400px; /* Increase width to take up full width of parent */
+    border: none; /* Remove default border */
+    padding: 10px; /* Add some padding */
+    border-radius: 10px; /* Optional: Add this line to make the corners rounded */
+    height: 100px; 
+}
+button, .Login {
+    padding: 10px;
+    width: 150px;
+    background-color: #00a6a6;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Increase this value to make the corners more rounded */
+    cursor: pointer;
+    display: block; /* Add this line to make the button a block element */
+    margin: auto; /* Add this line to center the button */
+}

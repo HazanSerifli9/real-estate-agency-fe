@@ -1,0 +1,40 @@
+.property-types {
+    width: 100%; /* Adjust this to change the card's width */
+    margin: 20px auto; /* Auto margins to center the card, 20px vertical margin to separate it from other components */
+    padding: 2rem;
+    border-radius: 6px;
+    background-color: #00adb5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Box shadow to give the card a "lifted" effect */
+    margin: 4rem auto;
+  }
+  
+    
+  #types menu {
+    margin: 1rem 0;
+    padding: 0;
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    justify-content: center;
+  }
+  
+    #types menu, button {
+      border: none;
+      border-radius: 5px;
+      align-items: center;
+      background-color: transparent;
+      color: #ebe7ef;
+      font-family: 'Salsa', cursive;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+  
+    #types menu button:hover {
+      background-color: #f18d9e;
+      color: #000000;
+    }
+    #types menu button.active {
+      background-color: #f18d9e;
+      color: #ebe7ef;
+    }
